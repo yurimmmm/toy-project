@@ -31,7 +31,7 @@ public class BoardService {
 			throw e;
 		}finally {
 			template.close(conn);
-		}
+		}          
 	}
 
 	public Map<String, Object> selectBoardDetail(String bdIdx) {

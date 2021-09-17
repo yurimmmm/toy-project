@@ -24,7 +24,7 @@ public class BoardDao {
 		
 		PreparedStatement pstm = null;
 		
-		try {
+		try { 
 			pstm = conn.prepareStatement(sql);
 			pstm.setString(1, board.getUserId());
 			pstm.setString(2, board.getTitle());

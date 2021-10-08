@@ -4,4 +4,4 @@ let createPopup = (popupInfo) =>{
 	
 	let popup = open(popupInfo.url,popupInfo.name
 					,`width=${popupInfo.width},height=${popupInfo.height},left=${left},top=${top}`);
-}
+} 

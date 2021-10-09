@@ -22,7 +22,7 @@
 				<div class="btn_section">
 					<button style="background-color:red; color:white; width:100%">전송</button>
 				</div>
-			</div>
+			</div> 
 		</form>
 	</div>
 </div>

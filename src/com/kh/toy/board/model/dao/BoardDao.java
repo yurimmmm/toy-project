@@ -22,7 +22,7 @@ public class BoardDao {
 				+ "(bd_idx,user_id,title,content) "
 				+ "values(sc_board_idx.nextval,?,?,?)";
 		
-		PreparedStatement pstm = null;
+		PreparedStatement pstm = null;  
 		
 		try {
 			pstm = conn.prepareStatement(sql);

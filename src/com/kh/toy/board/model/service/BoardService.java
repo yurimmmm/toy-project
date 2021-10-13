@@ -30,7 +30,7 @@ public class BoardService {
 			template.rollback(conn);
 			throw e;
 		}finally {
-			template.close(conn);
+			template.close(conn); 
 		}
 	}
 

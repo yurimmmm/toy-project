@@ -22,7 +22,7 @@ public class BoardService {
 		
 		try {
 			boardDao.insertBoard(board,conn);
-			for (FileDTO fileDTO : fileDTOs) {
+			for (FileDTO fileDTO : fileDTOs) { 
 				boardDao.insertFile(fileDTO,conn);
 			}
 			template.commit(conn); 

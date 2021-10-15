@@ -26,7 +26,7 @@ public class BoardService {
 				boardDao.insertFile(fileDTO,conn);
 			}
 			template.commit(conn); 
-		}catch (DataAccessException e) {
+		}catch (DataAccessException e) { 
 			template.rollback(conn);
 			throw e;
 		}finally {

@@ -34,7 +34,7 @@ public class ValidatorFilter implements Filter {
 		
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
 		HttpServletResponse httpResponse = (HttpServletResponse) response;
-		 
+		  
 		String[] uriArr = httpRequest.getRequestURI().split("/");
 		
 		if(uriArr.length != 0) {

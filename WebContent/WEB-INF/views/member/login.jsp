@@ -13,10 +13,10 @@
 .valid-msg{color:red;	font-size:0.5vw;}
 
 </style>
-
+ 
 </head>
 <body>
-	<h1>로그인</h1>
+	<h1>로그인</h1> 
 	<c:if test="${not empty param.err}">
 		<span class='valid-msg'>아이디나 비밀번호를 잘 못 입력하였습니다.</span>
 	</c:if>

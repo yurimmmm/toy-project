@@ -34,7 +34,7 @@ public class MemberService {
 
 	public Member memberAuthenticate(String userId, String password) {
 		Connection conn = template.getConnection();
-		Member member = null;
+		Member member = null; 
 		
 		try {
 			member = memberDao.memberAuthenticate(userId, password, conn);		

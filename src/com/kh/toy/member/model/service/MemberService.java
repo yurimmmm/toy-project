@@ -32,7 +32,7 @@ public class MemberService {
 	private MemberDao memberDao = new MemberDao();
 	private JDBCTemplate template = JDBCTemplate.getInstance();
 
-	public Member memberAuthenticate(String userId, St ring password) {
+	public Member memberAuthenticate(String userId, String password) {
 		Connection conn = template.getConnection();
 		Member member = null; 
 		

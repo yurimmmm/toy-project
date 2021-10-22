@@ -11,7 +11,7 @@
 	width:150px;
 }
 .valid-msg{color:red;	font-size:0.5vw;}
-
+ 
 </style>
  
 </head>

@@ -43,7 +43,7 @@ public class MemberController extends HttpServlet {
 	
 	private MemberService memberService = new MemberService();
        
-    /**
+    /** 
      * @see HttpServlet#HttpServlet()
      */   
     public MemberController() {

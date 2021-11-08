@@ -28,7 +28,7 @@ import com.kh.toy.member.model.dto.Member;
 //비지니스 로직을 Service가 담당하기 때문에 Transaction 관리도 Service가 담당.
 //commit,rollback을 Service 클래스에서 처리
 public class MemberService {
-	
+	 
 	private MemberDao memberDao = new MemberDao();
 	private JDBCTemplate template = JDBCTemplate.getInstance();
 

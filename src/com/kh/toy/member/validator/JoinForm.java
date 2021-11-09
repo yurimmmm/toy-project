@@ -26,7 +26,7 @@ public class JoinForm {
 		this.email = request.getParameter("email");
 		this.tell = request.getParameter("tell");
 	}
-	
+	 
 	public boolean test() {
 		
 		boolean isFailed = false;

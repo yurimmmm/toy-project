@@ -23,7 +23,7 @@ public class MemberDao {
 	public MemberDao() {
 		// TODO Auto-generated constructor stub
 	}
-	  
+	   
 	//사용자의 아이디와 password를 전달 받아서
 	//아이디와 password가 일치하는 회원을 조회하는 메서드
 	public Member memberAuthenticate(String userId, String password, Connection conn) {

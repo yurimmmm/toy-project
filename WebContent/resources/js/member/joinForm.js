@@ -7,7 +7,7 @@
 		   
 		   if(!userId){
 			   document.querySelector('#idCheck').innerHTML = '아이디를 입력하지 않았습니다.';
-			   return;
+			   return; 
 		   }
 		   
 		   fetch("/member/id-check?userId=" + userId)

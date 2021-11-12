@@ -12,7 +12,7 @@ import com.kh.toy.member.model.service.MemberService;
 public class JoinForm {
 	
 	private String userId;
-	private String password;
+	private String password; 
 	private String email;
 	private String tell;
 	private HttpServletRequest request;	

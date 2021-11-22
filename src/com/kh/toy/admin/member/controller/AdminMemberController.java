@@ -36,7 +36,7 @@ public class AdminMemberController extends HttpServlet {
 			case "member-list":
 				memberList(request,response);
 				break;
-			default:throw new PageNotFoundException();
+			default:throw new PageNotFoundException(); 
 		}
 	}
 

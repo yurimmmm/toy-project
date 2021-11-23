@@ -18,7 +18,7 @@ public class JDBCTemplate {
 	
 	//생성자를 private으로 처리해 외부에서 JDBCTemplate을 생성하는 것을 차단.
 	private JDBCTemplate() {
-		try {
+		try { 
 			//1. oracle jdbc Driver를 JVM에 등록
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			

@@ -9,3 +9,4 @@ public class PageNotFoundException extends RuntimeException{
 		this.setStackTrace(new StackTraceElement[0]);
 	}
 }
+ 

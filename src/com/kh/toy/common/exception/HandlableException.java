@@ -13,7 +13,7 @@ public class HandlableException extends RuntimeException{
 		this.error = error;
 		this.setStackTrace(new StackTraceElement[0]); //stackTrace를 비워준다.
 	}
-	
+	 
 	public HandlableException(ErrorCode error, Exception e) {
 		this.error = error;
 		e.printStackTrace();

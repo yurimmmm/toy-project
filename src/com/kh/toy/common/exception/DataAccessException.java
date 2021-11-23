@@ -12,3 +12,4 @@ public class DataAccessException extends HandlableException{
 		super(ErrorCode.DATABSE_ACCESS_ERROR,e);
 	}
 }
+ 

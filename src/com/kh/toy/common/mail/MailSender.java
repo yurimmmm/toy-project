@@ -30,7 +30,7 @@ public class MailSender {
 		 SMTP_PROPERTIES.put("mail.smtp.auth", "true");
 		 SMTP_PROPERTIES.put("mail.debug", "true");
 	}
-	 
+	  
 	public void sendEmail(String to, String subject, String htmlText) {
 		
 	    try {

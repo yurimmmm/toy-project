@@ -24,7 +24,7 @@
 			</c:forEach>
 		</ol>
 	</div>
-	
+	 
 	<div class='article_content'>
 		<pre><c:out value="${datas.board.content}"/></pre>
 		<img alt="#" src="http://localhost:7070/file/2021/9/10/zoom_profile.jpg">

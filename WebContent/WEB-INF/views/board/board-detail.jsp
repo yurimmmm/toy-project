@@ -22,7 +22,7 @@
 			<c:forEach items="${datas.files}" var="file">
 				<li><a href="/file/${file.savePath}${file.renameFileName}?originName=${file.originFileName}">${file.originFileName}</a></li>		
 			</c:forEach>
-		</ol>
+		</ol> 
 	</div>
 	 
 	<div class='article_content'>

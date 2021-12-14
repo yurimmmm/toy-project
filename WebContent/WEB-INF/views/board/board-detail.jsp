@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="/resources/css/board/board.css">
 </head>
 <body>
-
+ 
 <div class="content">
 
 	<h2 class='tit'>게시판</h2>

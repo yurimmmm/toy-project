@@ -17,7 +17,7 @@
 		<span>등록일 : <c:out value="${datas.board.regDate}"/></span>
 		<span>작성자 : <c:out value="${datas.board.userId}"/></span>
 	</div>
-	<div class='info file_info'> 
+	<div class='info file_info'>  
 		<ol>
 			<c:forEach items="${datas.files}" var="file">
 				<li><a href="/file/${file.savePath}${file.renameFileName}?originName=${file.originFileName}">${file.originFileName}</a></li>		

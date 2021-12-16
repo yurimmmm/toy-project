@@ -21,7 +21,7 @@ import com.kh.toy.member.model.dto.Member;
 
 
 /**
- * Servlet implementation class BoardController
+ * Servlet implementation class BoardController 
  */
 @WebServlet("/board/*")
 public class BoardController extends HttpServlet {

@@ -11,7 +11,7 @@
 		<%-- 안내창 출력 --%>
 		<c:if test="${not empty msg}">
 			alert("${msg}");		
-		</c:if>
+		</c:if> 
 		
 		<%-- 뒤로 가기 --%>
 		<c:if test="${not empty back}">

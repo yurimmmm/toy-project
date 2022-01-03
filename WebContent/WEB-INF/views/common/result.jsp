@@ -15,7 +15,7 @@
 		
 		<%-- 뒤로 가기 --%>
 		<c:if test="${not empty back}">
-			history.back();	
+			history.back();	 
 		</c:if> 
 
 		<%-- 페이지 이동 --%>
